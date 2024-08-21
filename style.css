@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkgrey;
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 90vw;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container > * {
+  padding: 0.5rem 0;
+}
+h1{
+    color: red;
+    text-transform: uppercase;
+}
+.ligen {
+  color: whitesmoke;
+}
+
+.nibo {
+  color: steelblue;
+}
+
+.tempros {
+  color: magenta;
+}
+
+.sedna{
+    color: #d8d8d8;
+}
+
+/* .belfalas{
+    color: darkred;
+} */
+
+.dual-color-text, .belfalas >* {
+    /* font-size: 4rem;
+    font-weight: bold; */
+    background: linear-gradient(to bottom, red  30%, #51473F 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.frigga{
+    color: beige;
+}
+
+.nathaniel{
+    color: #b87333;
+}
+
+.boid{
+    color: green;
+}
+
+.galdor{
+    color: gold;
+}
+
+.melkar{
+    color: darkmagenta;
+}
